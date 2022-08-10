@@ -1,0 +1,15 @@
+name: upchat
+channels:
+  - anaconda
+dependencies:
+  - certifi=2022.6.15
+  - menuinst=1.4.18
+  - openssl=1.1.1o
+  - python=3.7.13
+  - pip:
+      - asyncio==3.4.3
+      - conda-env-export==0.4.5
+      - pip==22.1.2
+      - websockets==10.3
+      - wheel==0.37.1
+      - wincertstore==0.2
